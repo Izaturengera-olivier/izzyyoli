@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css" />
+</head>
+
+<body>
+    <form action="/" method="GET">
+        <div class="main">
+            <h1>login here</h1>
+            <input type="text" placeholder="username" id="username" required>
+            <div class="password">
+                <input type="password" placeholder="enter your password" id="password" required>
+                <img src="materials/closed.png" id="eye">
+
+            </div>
+            <div class="btn">
+                <button><input type="submit"></button>
+            </div>
+            <p>don't you have account ? <a href="signup.html">signup</a></p>
+    </form>
+    <script>
+        let eye = document.getElementById("eye");
+        let password = document.getElementById("password");
+        eye.onclick = function() {
+            if (password.type == "password") {
+                password.type = "text";
+                eye.src = "materials/open.png"
+            } else {
+                password.type = "password"
+                eye.src = "materials/closed.png"
+            }
+        }
+    </script>
+    <div class="back">
+        <button><a href="index.html">back to home</a></button>
+    </div>
+    </div>
+</body>
+
+</html>

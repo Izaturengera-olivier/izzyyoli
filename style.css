@@ -1,0 +1,1369 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#main {
+    width: 100%;
+    height: 110vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(materials/background.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(0, 128, 255);
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+}
+
+.menu {
+    float: right;
+    margin-right: 170px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    list-style: circle;
+    margin-left: 40px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    transition: 1s;
+}
+
+.menu ul li a:hover {
+    color: green;
+}
+
+.menu ul li a:visited {
+    color: blue;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.content h2 {
+    text-transform: capitalize;
+    color: white;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content p {
+    margin-top: 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: wheat;
+}
+
+.btn {
+    margin-right: 500px;
+    margin-top: 15px;
+}
+
+.btn button {
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    transition: 1s;
+}
+
+.btn button:hover {
+    background-color: darksalmon;
+}
+
+.btn a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+}
+
+.btn a:hover {
+    color: green;
+}
+
+.products {
+    width: 80%;
+    display: flex;
+    padding-left: 500px;
+}
+
+.products img {
+    width: 200px;
+    height: 180px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    color: chartreuse;
+    text-transform: capitalize;
+}
+
+.login {
+    float: right;
+    margin-right: 30px;
+}
+
+.login button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(0, 119, 255);
+    border-radius: 5px;
+}
+
+.login button:hover {
+    background-color: transparent;
+}
+
+.login a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+a:hover {
+    color: red;
+}
+
+.icons {
+    width: 100%;
+    background: #fff;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+}
+
+.icons ul {
+    display: flex;
+    margin-left: 100px;
+}
+
+.icons ul li {
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.icons ul li a {
+    color: green;
+    text-decoration: none;
+    font-size: 40px;
+    animation-name: inherit;
+    animation-duration: 3s;
+    animation: rotate-x;
+    transition: 0.5s;
+}
+
+.icons ul li a:hover {
+    color: blue;
+}
+
+span {
+    font-size: 15px;
+    color: aqua;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.main {
+    width: 100%;
+    height: 112vh;
+    background-color: grey;
+    background-size: cover;
+}
+
+h4 {
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    color: lightblue;
+}
+
+.image img {
+    width: 300px;
+    height: 250px;
+    margin-top: 40px;
+}
+
+.image {
+    display: flex;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-left: 500px;
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    color: chartreuse;
+}
+
+.image p {
+    margin-top: 15px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.icons .you li a {
+    color: red;
+}
+
+.icons .inst li a {
+    color: indianred;
+}
+
+.icons .go li a {
+    position: relative;
+    color: coral;
+}
+
+.icons .fb li a {
+    color: darkblue;
+}
+
+.icons .tw li a {
+    color: darkblue;
+}
+
+.icons .c li a {
+    color: darkblue;
+}
+
+.icons h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.deny button:hover {
+    background-color: blue;
+}
+
+.kig:hover {
+    background-color: seagreen;
+    transition: 1s;
+}
+
+.gig:hover {
+    background-color: coral;
+    transition: 1s;
+}
+
+.mus:hover {
+    background-color: khaki;
+    transition: 1s;
+    text-overflow: ellipsis;
+}
+
+#about_us {
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+#about_us img {
+    width: 350px;
+    height: 500px;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.con {
+    display: flex;
+}
+
+.con p {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.src {
+    margin: 20px;
+    float: right;
+    margin-right: 0px;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.src input {
+    border: 0;
+    outline: none;
+    height: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: burlywood;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+button {
+    float: right;
+    margin-top: 20px;
+    height: 35px;
+    width: 70px;
+    font-size: 15px;
+    text-align: center;
+    background-color: transparent;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+button a {
+    text-decoration: none;
+    color: darkorange;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#prices {
+    width: 100%;
+    height: 120vh;
+    background-color: #fcb;
+    background-size: cover;
+}
+
+.pro {
+    text-align: center;
+}
+
+.pro p {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 800;
+    color: #fff;
+}
+
+.tv {
+    display: flex;
+    width: 95%;
+    margin: 10px;
+    padding: 5px;
+    margin-left: 100px;
+}
+
+.tv img {
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+}
+
+.tv p {
+    margin-left: 15px;
+    color: black;
+}
+
+.mai {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.mai img {
+    height: 150px;
+    width: 250px;
+}
+
+.mai p {
+    color: chocolate;
+}
+
+.oli {
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.oli img {
+    height: 150px;
+    width: 250px;
+    margin-left: 50px;
+}
+
+.oli p {
+    margin-top: 20px;
+    color: chocolate;
+    padding-left: 40px;
+}
+
+.inn {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.inn img {
+    height: 150px;
+    width: 250px;
+    padding-left: 40px;
+}
+
+.inn p {
+    margin-top: 20px;
+    color: chocolate;
+    margin-left: 40px;
+}
+
+.l img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.l {
+    height: 150px;
+    width: 250px;
+}
+
+.m {
+    height: 150px;
+    width: 250px;
+}
+
+.m img:hover {
+     transform: scale(1.1);
+    transition: 1s;
+}
+
+.n {
+    height: 150px;
+    width: 250px;
+}
+
+.n img:hover {
+     transform: scale(1.1);
+    transition: 1s;
+}
+
+.o {
+    height: 150px;
+    width: 250px;
+}
+
+.o img:hover {
+     transform: scale(1.1);
+    transition: 1s;
+}
+
+.p {
+    height: 150px;
+    width: 250px;
+    margin-top: 120px;
+}
+
+.p img:hover {
+     transform: scale(1.1);
+    transition: 1s;
+}
+
+.q {
+    height: 150px;
+    width: 250px;
+    margin-top: 120px;
+}
+
+.q img:hover {
+     transform: scale(1.1);
+    transition: 1s;
+}
+
+.u {
+    height: 150px;
+    width: 250px;
+    margin-top: 120px;
+}
+
+.u img:hover {
+     transform: scale(1.1);
+    transition: 1s;
+}
+
+.r img:hover {
+     transform: scale(1.1);
+    transition: 1s;
+}
+
+.s img:hover {
+     transform: scale(1.1);
+    transition: 1s;
+}
+
+.t img:hover {
+     transform: scale(1.1);
+    transition: 1s;
+}
+
+.v img:hover {
+     transform: scale(1.1);
+    transition: 1s;
+}
+
+.w img:hover {
+     transform: scale(1.1);
+    transition: 1s;
+}
+
+.q {
+    height: 150px;
+    width: 250px;
+    margin-top: 120px;
+}
+
+.q img {
+    margin-right: 25px;
+}
+
+.r {
+    height: 150px;
+    width: 250px;
+    margin-top: 120px;
+}
+
+.s {
+    height: 150px;
+    width: 250px;
+    margin-top: 120px;
+}
+
+.t {
+    height: 150px;
+    width: 250px;
+    margin-top: 120px;
+}
+
+.v {
+    height: 150px;
+    width: 250px;
+    margin-top: 120px;
+}
+
+.w {
+    height: 150px;
+    width: 250px;
+    margin-top: 120px;
+}
+
+#product {
+    height: 165vh;
+}
+
+.deny {
+    width: 30%;
+    display: flex;
+    margin-left: 300px;
+    margin-bottom: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.deny input {
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 19px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    color: orangered;
+}
+
+.deny button {
+    background-color: orangered;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 80px;
+    height: 35px;
+    margin-bottom: 17px;
+}
+
+.inno {
+    font-size: 35px;
+}
+
+.inno:hover {
+    color: black;
+    font-size: 45px;
+    transition: 2s;
+}
+
+.cle {
+    margin-top: 100px;
+}
+
+.cle button {
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    border: 3px solid orangered;
+}
+
+.shop {
+    width: 40%;
+    height: 600px;
+    margin-left: 350px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #ccc;
+}
+
+.shop p {
+    font-size: 10px;
+    text-align: center;
+    visibility: hidden;
+    margin-left: 90px;
+    text-transform: uppercase;
+    color: red;
+}
+
+.back {
+    margin-bottom: 40px
+}
+
+.back button {
+    margin-left: 40px;
+    border-radius: 10px;
+    width: 130px;
+    height: 30px;
+    border: 3px solid gray;
+}
+
+.back button a {
+    font-size: 15px;
+}
+
+.back button a:hover {
+    transition: 2s;
+    color: green;
+    font-size: 15px;
+}
+
+.back button:hover {
+    background-color: #fff;
+    transition: 2s;
+}
+
+.shop h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.ra {
+    width: 50%;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.ra input {
+    display: block;
+    width: 300px;
+    height: 35px;
+    border: 3px solid rgb(0, 0, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ra button {
+    width: 200px;
+    height: 35px;
+    border: 3px solid rgb(4, 0, 255);
+    border-radius: 15px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.al {
+    width: 20%;
+    margin-left: 230px;
+}
+
+.al button {
+    background-color: darkgoldenrod;
+    color: white;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.al button:hover {
+    background-color: greenyellow;
+    border: 3px solid red;
+    transition: 2s;
+}
+
+.shop h2 {
+    margin-top: 80px;
+    color: orangered;
+    text-align: center;
+}
+
+.cla a {
+    font-size: 40px;
+}
+
+.cla {
+    display: flex;
+}
+
+.k a {
+    color: green;
+}
+
+.k span {
+    color: white;
+}
+
+.cla a:hover {
+    color: blue;
+    font-size: 50px;
+    transition: 1.5s;
+}
+
+.olive button {
+    border-radius: 10px;
+    background-color: black;
+    color: green;
+    border: 3px solid orange;
+}
+
+.olive button a {
+    color: green;
+}
+
+.olive button:hover {
+    background-color: transparent;
+    transition: 1s;
+    color: white;
+}
+
+.oliv {
+    margin-top: 30px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    float: right;
+    margin-right: 50px;
+    font-size: 35px;
+    color: green;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.oliv a {
+    color: green;
+}
+
+.oliv:hover {
+    background-color: chocolate;
+    color: #fcb;
+    transition: 1.5s;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: 2s;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    padding: 30px;
+    background-color: whitesmoke;
+}
+
+.our_branches {
+    width: 300px;
+    padding: 10px;
+    height: 300px;
+    display: block;
+    background-color: white;
+}
+
+.our_branches a {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: chocolate;
+    text-transform: capitalize;
+}
+
+.category {
+    width: 300px;
+    padding: 10px;
+    height: 300px;
+    display: block;
+    background-color: white;
+    margin-left: 15px;
+}
+
+.category a {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: chocolate;
+    text-transform: capitalize;
+}
+
+.ele a {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: chocolate;
+    text-transform: capitalize;
+}
+
+.ele {
+    margin-left: 15px;
+    width: 350px;
+    padding: 10px;
+    height: 300px;
+    display: block;
+    background-color: white;
+}
+
+.call {
+    margin-left: 15px;
+    width: 300px;
+    padding: 10px;
+    height: 300px;
+    display: block;
+    background-color: white;
+}
+
+.speakers a {
+    text-decoration: none;
+}
+
+.call a {
+    display: block;
+    margin-top: 10px;
+    font-size: 35px;
+    text-decoration: none;
+    color: chocolate;
+    text-transform: capitalize;
+}
+
+.footer p {
+    color: darkorange;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.pa {
+    display: flex;
+}
+
+.pa a {
+    color: blue;
+}
+
+.ma a {
+    color: green;
+}
+
+.ma a:hover {
+    color: yellow;
+    transition: 1.5s;
+}
+
+.pa a:hover {
+    color: deepskyblue;
+    transition: 1.5s;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon a {
+    font-size: 30px;
+    margin-left: 25px;
+    margin-top: 90px;
+}
+
+.footer a:hover {
+    color: violet;
+    transition: 1.5s;
+}
+
+.fa {
+    display: none;
+}
+
+@media(max-width:700px) {
+    h1 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    h4 {
+        font-size: 1;
+    }
+    p {
+        font-size: 12px;
+    }
+    #main {
+        height: 130vh;
+        .products {
+            padding-left: 5px;
+        }
+        .products img {
+            width: 100px;
+            height: 110px;
+        }
+    }
+    .menu {
+        background-color: coral;
+        width: 130px;
+        height: 200px;
+        ul {
+            display: block;
+        }
+        ul li a {
+            font-size: 12px;
+        }
+    }
+    #about_us {
+        margin-top: 0px;
+        align-items: center;
+        justify-content: center;
+        height: 125vh;
+        padding: 10px;
+        img {
+            width: 150px;
+            height: 300px;
+        }
+        p {
+            font-size: 12px;
+            margin-left: 5px;
+            margin-top: 10px;
+        }
+        span {
+            margin-top: 2px;
+        }
+        .con {
+            display: block;
+            margin-left: 0;
+            padding: 2px;
+        }
+    }
+    #product {
+        padding: 0;
+        .olive {
+            float: left;
+        }
+        img {
+            height: 100px;
+            width: 120px;
+            margin-left: 2px;
+        }
+        height: 550vh;
+        .inn {
+            display: block;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        .mai {
+            display: block;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        .l {
+            margin-top: 20px;
+        }
+        .m {
+            margin-top: 80px;
+        }
+        .n {
+            margin-top: 80px;
+        }
+        .o {
+            margin-top: 80px;
+        }
+        .oli {
+            display: block;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+    }
+    #branches {
+        h4 {
+            font-size: 18px;
+            text-align: center;
+        }
+        height: 210vh;
+        .main {
+            height: 210vh;
+        }
+        .main ul li {
+            margin-left: 20px;
+        }
+        .image {
+            display: block;
+        }
+        .image img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+    #prices {
+        height: 220vh;
+        .pro h1 {
+            text-align: center;
+        }
+        .pro p {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .tv {
+            display: block;
+            margin-left: 10px;
+        }
+    }
+    #contact_us {
+        height: 60vh;
+        padding: 0;
+        h2 {
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 70px;
+        }
+        .icons {
+            width: 100%;
+            padding: 5px;
+            float: left;
+        }
+        .icons ul {
+            margin-left: 10px;
+        }
+        .icons ul li {
+            margin-top: 2px;
+            margin-left: 4px;
+        }
+        .icons ul li a {
+            font-size: 18px;
+        }
+        .deny {
+            margin-left: 70px;
+            margin-top: 20px;
+        }
+        .deny input {
+            width: 160px;
+        }
+        span {
+            font-size: 10px;
+            color: aqua;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+    }
+    .footer {
+        height: 200vh;
+        display: block;
+    }
+    .category {
+        margin-top: 150px;
+        height: 200px;
+    }
+    .ele {
+        margin-top: 10px;
+        height: 200px;
+    }
+}
+
+@media(max-width:700px) {
+    .shop {
+        width: 350px;
+        margin-left: 2px;
+        padding: 10px;
+        height: 98vh;
+    }
+    .ra {
+        margin-left: 3px;
+    }
+}
+
+@media(max-width:900px) {
+    @media(max-width: 700px) {
+        h1 {
+            font-size: 30px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        h3 {
+            font-size: 16px;
+        }
+        h4 {
+            font-size: 15px;
+        }
+        p {
+            font-size: 14px;
+        }
+        #main {
+            height: 130vh;
+            .products {
+                padding-left: 5px;
+            }
+            .products img {
+                width: 100px;
+                height: 110px;
+            }
+        }
+        .menu {
+            background-color: coral;
+            width: 130px;
+            height: 200px;
+            ul {
+                display: block;
+            }
+            ul li a {
+                font-size: 12px;
+            }
+        }
+        #about_us {
+            margin-top: 0px;
+            align-items: center;
+            justify-content: center;
+            height: 125vh;
+            padding: 10px;
+            img {
+                width: 150px;
+                height: 300px;
+            }
+            p {
+                font-size: 12px;
+                margin-left: 5px;
+                margin-top: 10px;
+            }
+            span {
+                margin-top: 2px;
+            }
+            .con {
+                display: block;
+                margin-left: 0;
+                padding: 2px;
+            }
+        }
+        #product {
+            padding: 0;
+            .olive {
+                float: left;
+            }
+            img {
+                height: 100px;
+                width: 120px;
+                margin-left: 2px;
+            }
+            height: 550vh;
+            .inn {
+                display: block;
+                padding-top: 10px;
+                padding-left: 10px;
+            }
+            .mai {
+                display: block;
+                padding-top: 10px;
+                padding-left: 10px;
+            }
+            .l {
+                margin-top: 20px;
+            }
+            .m {
+                margin-top: 80px;
+            }
+            .n {
+                margin-top: 80px;
+            }
+            .o {
+                margin-top: 80px;
+            }
+            .oli {
+                display: block;
+                padding-top: 10px;
+                padding-left: 10px;
+            }
+        }
+        #branches {
+            h4 {
+                font-size: 18px;
+                text-align: center;
+            }
+            height: 210vh;
+            .main {
+                height: 210vh;
+            }
+            .main ul li {
+                margin-left: 20px;
+            }
+            .image {
+                display: block;
+            }
+            .image img {
+                width: 200px;
+                height: 200px;
+            }
+        }
+        #prices {
+            height: 220vh;
+            .pro h1 {
+                text-align: center;
+            }
+            .pro p {
+                margin-top: 10px;
+                text-align: center;
+            }
+            .tv {
+                display: block;
+                margin-left: 10px;
+            }
+        }
+        #contact_us {
+            height: 60vh;
+            padding: 0;
+            h2 {
+                font-size: 18px;
+                text-align: center;
+                margin-bottom: 70px;
+            }
+            .icons {
+                width: 100%;
+                padding: 5px;
+                float: left;
+            }
+            .icons ul {
+                margin-left: 10px;
+            }
+            .icons ul li {
+                margin-top: 2px;
+                margin-left: 4px;
+            }
+            .icons ul li a {
+                font-size: 18px;
+            }
+            .deny {
+                margin-left: 70px;
+                margin-top: 20px;
+            }
+            .deny input {
+                width: 160px;
+            }
+            span {
+                font-size: 10px;
+                color: aqua;
+                text-transform: capitalize;
+                font-weight: 600;
+            }
+        }
+        .footer {
+            height: 220vh;
+            display: block;
+        }
+        .category {
+            margin-top: 300px;
+            height: 200px;
+        }
+        .ele {
+            margin-top: 10px;
+            height: 200px;
+        }
+    }
+    @media(max-width:700px) {
+        p {
+            font-size: 15px;
+        }
+        .shop {
+            width: 340px;
+            margin-left: 2px;
+            padding: 10px;
+            height: 110vh;
+        }
+        .ra {
+            margin-left: 3px;
+        }
+    }
+    .back {
+        margin-right: 12px;
+    }
+    .back button {
+        margin-left: 1px;
+        border-radius: 10px;
+        width: 120px;
+        height: 30px;
+        border: 3px solid gray;
+    }
+}
